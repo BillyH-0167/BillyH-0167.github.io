@@ -1,0 +1,32 @@
+/*
+
+       _           _   ____  _ _ _       _    _ 
+      | |         | | |  _ \(_) | |     | |  | |
+      | |_   _ ___| |_| |_) |_| | |_   _| |__| |
+  _   | | | | / __| __|  _ <| | | | | | |  __  |
+ | |__| | |_| \__ \ |_| |_) | | | | |_| | |  | |
+  \____/ \__,_|___/\__|____/|_|_|_|\__, |_|  |_|
+                                    __/ |       
+                                   |___/        
+
+*/
+
+body {
+    background-image: url('../img/404.jpg');
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100% !important;
+    color: white;
+    font-family: 'Press Start 2P';
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+::selection {
+    background: #FFFFFF;
+}
